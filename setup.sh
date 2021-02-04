@@ -1,9 +1,12 @@
 mkdir -p ~/.streamlit/
+echo "\
+[general]\n\
+email = \"abhijit.jitan@gmail.com\"\n\
+" > ~/.streamlit/credentials.toml
 
 echo "\
-http://192.168.43.240\n\
-port = 8501\n\
-enableCORS = false\n\
+[server]\n\
 headless = true\n\
-\n\
+enableCORS=false\n\
+port = $PORT\n\
 " > ~/.streamlit/config.toml
