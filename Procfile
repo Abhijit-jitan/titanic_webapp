@@ -1,1 +1,1 @@
-  web: sh setup.sh && streamlit run titanic_strm_updated.py
+  web: sh setup.sh && streamlit run Streamlit_prototype.py
