@@ -10,11 +10,11 @@ def input_value():
 
     age = st.slider("Enter Age :", 1, 75, 30)
 
-    input = {"Age": age,}
+    input = {"Age": age}
 
     return age
 
 
 # def predict(df):
 data = input_value()
-st.write(age)
+st.write(data)
